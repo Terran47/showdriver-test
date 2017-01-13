@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="3" id="ru.showdriver.showdriver" version="1.5.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>Show Driver</name>
+    <description>
+        App for android
+    </description>
+    <author email="oskar@motive.kz" href="showdriver.ru">
+        Oskar
+    </author>
+    <icon src="www/icon.png" />
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <splash density="port-hdpi" src="res/drawable-port-hdpi/screen.png" />
+    <splash density="port-ldpi" src="res/drawable-port-ldpi/screen.png" />
+    <splash density="port-mdpi" src="res/drawable-port-mdpi/screen.png" />
+    <splash density="port-xhdpi" src="res/drawable-port-xhdpi/screen.png" />
+    <allow-intent href="market:*" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="Orientation" value="portrait" />
+</widget>
